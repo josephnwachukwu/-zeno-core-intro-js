@@ -1,5 +1,7 @@
 # @zeno-core/intro-js
 
+![zeno](Zen-Oh.png)
+
 ## Installation
 
 To install this library, run:
