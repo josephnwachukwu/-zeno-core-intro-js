@@ -5,7 +5,7 @@
 To install this library, run:
 
 ```bash
-$ npm install ng2-intro-js --save
+$ npm install @zeno-core/intro-js --save
 ```
 
 ## Consuming your library
@@ -13,7 +13,7 @@ $ npm install ng2-intro-js --save
 Once you have published your library to npm, you can import your library in any Angular application by running:
 
 ```bash
-$ npm install ng2-intro-js
+$ npm install @zeno-core/intro-js
 ```
 
 and then from your Angular `AppModule`:
