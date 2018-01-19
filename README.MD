@@ -1,5 +1,5 @@
-# @zeno-core/intro-js
-<img src="Zen-Oh.png" width='75' />
+# <img src="Zen-Oh.png" width='75' /> @zeno-core/intro-js
+
 
 ## Installation
 
