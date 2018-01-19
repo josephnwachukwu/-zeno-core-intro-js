@@ -2,6 +2,8 @@
 
 An Angular module that wraps Introjs Functionality. 
 
+<img src="Screen Shot 2018-01-19 at 1.52.26 PM.png" />
+
 To learn more about IntroJs click [here for documentation](http://usablica.github.io/intro.js/)
 
 ## Installation
