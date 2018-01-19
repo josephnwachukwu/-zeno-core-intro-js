@@ -1,20 +1,15 @@
 # <img src="Zen-Oh.png" width='75' /> @zeno-core/intro-js
 
+An Angular module that wraps Introjs Functionality. 
+
+To learn more about IntroJs click [here for documentation](http://usablica.github.io/intro.js/)
 
 ## Installation
 
 To install this library, run:
 
-```bash
-$ npm install @zeno-core/intro-js --save
 ```
-
-## Consuming your library
-
-Once you have published your library to npm, you can import your library in any Angular application by running:
-
-```bash
-$ npm install @zeno-core/intro-js
+$ npm install @zeno-core/intro-js --save
 ```
 
 and then from your Angular `AppModule`:
@@ -25,8 +20,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-// Import your library
-import { SampleModule } from 'ng2-intro-js';
+// Import the library
+import { IntroJsModule } from 'ng2-intro-js';
 
 @NgModule({
   declarations: [
@@ -36,7 +31,7 @@ import { SampleModule } from 'ng2-intro-js';
     BrowserModule,
 
     // Specify your library as an import
-    LibraryModule
+    IntroJsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -44,15 +39,8 @@ import { SampleModule } from 'ng2-intro-js';
 export class AppModule { }
 ```
 
-Once your library is imported, you can use its components, directives and pipes in your Angular application:
+Once the library is imported, you can use the components, directives and pipes in your Angular application:
 
-```xml
-<!-- You can now use your library component in app.component.html -->
-<h1>
-  {{title}}
-</h1>
-<sampleComponent></sampleComponent>
-```
 
 ## Development
 
